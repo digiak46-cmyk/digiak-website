@@ -994,8 +994,19 @@ body{
 }
 
 
+.project-card{
+  position: relative;
+}
+
 .project-card::before{
- animation:none;
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:3px;
+  background:linear-gradient(90deg,#d4af37,#ffd700);
+  border-radius:10px 10px 0 0;
 }
 
 @keyframes spinLogo{
