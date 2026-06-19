@@ -1003,7 +1003,7 @@ body{
   pointer-events:none;
 }
 .project-card::before{
-  animation:spinLogo 20s linear infinite;
+ animation:none;
 }
 
 @keyframes spinLogo{
