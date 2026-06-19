@@ -993,15 +993,7 @@ body{
   overflow:hidden;
 }
 
-.project-card::before{
-  content:"";
-  position:absolute;
-  inset:0;
-  background:url("logo-link") center center no-repeat;
-  background-size:120px;
-  opacity:0.08;
-  pointer-events:none;
-}
+
 .project-card::before{
  animation:none;
 }
