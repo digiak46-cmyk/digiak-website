@@ -985,8 +985,11 @@ body{
   }
 }
 .brand-logo{
-  height:60px;
-  margin-bottom:15px;
+  width:70px;
+  height:70px;
+  object-fit:contain;
+  display:block;
+  margin:20px auto 15px;
 }
 .project-card{
   position:relative;
