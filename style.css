@@ -988,3 +988,29 @@ body{
   height:60px;
   margin-bottom:15px;
 }
+.project-card{
+  position:relative;
+  overflow:hidden;
+}
+
+.project-card::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("logo-link") center center no-repeat;
+  background-size:120px;
+  opacity:0.08;
+  pointer-events:none;
+}
+.project-card::before{
+  animation:spinLogo 20s linear infinite;
+}
+
+@keyframes spinLogo{
+  from{
+    transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
