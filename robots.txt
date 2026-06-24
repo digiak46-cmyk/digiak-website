@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digiak46-cmyk.github.io/digiak-website/sitemap.xml
