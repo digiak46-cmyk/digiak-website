@@ -1216,18 +1216,13 @@ z-index:999;
 border-bottom:1px solid rgba(255,255,255,.05);
 
 }
-.logo{
-
+.blog-page .logo{
 height:55px;
-
 transition:.35s;
-
 }
 
-.logo:hover{
-
+.blog-page .logo:hover{
 transform:scale(1.06);
-
 }
 .nav-links{
 
