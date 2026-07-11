@@ -1125,13 +1125,17 @@ transform:scale(1.1);
    RESPONSIVE
 ========================= */
 
-@media(max-width:992px){
+@media (max-width: 992px) {
 
-#founder{
+    #founder{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 
-grid-template-columns:1fr;
-
-text-align:center;
+    .projects-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 
@@ -1194,11 +1198,8 @@ font-size:46px;
 
 .testimonial-grid,
 .why-grid,
-#projects,
-#services{
-
-grid-template-columns:1fr;
-
+.projects-grid{
+    grid-template-columns:1fr;
 }
 
 .audit-box ul{
