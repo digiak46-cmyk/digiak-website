@@ -1280,3 +1280,29 @@ grid-template-columns:1fr;
     color:#aaa;
     letter-spacing:2px;
 }
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    width:90%;
+    max-width:1400px;
+    margin:60px auto 0;
+}
+
+.project-card{
+    background:#171717;
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:20px;
+    padding:35px 25px;
+    text-align:center;
+}
+
+.project-card img{
+    width:120px;
+    height:80px;
+    object-fit:contain;
+    background:#fff;
+    padding:10px;
+    border-radius:12px;
+    margin-bottom:20px;
+}
