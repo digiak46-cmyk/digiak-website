@@ -1208,3 +1208,75 @@ grid-template-columns:1fr;
 }
 
 }
+/* =====================================
+   HERO FIX
+===================================== */
+
+#hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:120px 20px 60px;
+}
+
+#hero h1{
+    max-width:900px;
+    font-size:clamp(48px,6vw,90px);
+    line-height:1.05;
+    margin-bottom:35px;
+}
+
+.terminal-box{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px 30px;
+    border:1px solid rgba(212,175,55,.4);
+    border-radius:12px;
+    margin-bottom:30px;
+    background:#111;
+}
+
+#changing-word{
+    color:#D4AF37;
+    font-weight:600;
+}
+
+.cursor{
+    color:#D4AF37;
+    margin-left:3px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.hero-buttons .btn{
+    display:inline-block;
+    padding:14px 32px;
+    border-radius:50px;
+    background:#D4AF37;
+    color:#111;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hero-buttons .btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px rgba(212,175,55,.25);
+}
+
+.trust-line{
+    width:100%;
+    text-align:center;
+    margin:40px auto 80px;
+    color:#aaa;
+    letter-spacing:2px;
+}
