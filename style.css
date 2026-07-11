@@ -1291,11 +1291,13 @@ grid-template-columns:1fr;
 }
 .projects-grid{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(3, minmax(0,1fr));
     gap:30px;
-    width:90%;
-    max-width:1400px;
-    margin:60px auto 0;
+
+    width:100%;
+    max-width:none;
+
+    margin-top:60px;
 }
 
 .project-card{
