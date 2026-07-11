@@ -430,9 +430,17 @@ nav{
 
 /* Grid */
 #projects{
+    padding:100px 8%;
+    background:#090909;
+}
+
+.projects-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:30px;
+    width:100%;
+    max-width:1400px;
+    margin:60px auto 0;
 }
 
 #projects h2,
