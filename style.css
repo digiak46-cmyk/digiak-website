@@ -1139,28 +1139,28 @@ grid-template-columns:1fr;
     font-weight:600;
 }
 .testimonial-gallery{
-    display:grid;
-    grid-template-columns:repeat(2,280px);
+    display:flex;
+    flex-wrap:wrap;
     justify-content:center;
     gap:25px;
-    margin:60px auto 0;
+    margin-top:60px;
 }
 
-
 .testimonial-card{
-    display:flex;
-    justify-content:center;
+    width:260px;
 }
 
 .testimonial-img{
-    width:280px;
-    border-radius:16px;
+    width:100%;
     display:block;
+    border-radius:16px;
+    border:1px solid rgba(212,175,55,.25);
+    transition:.3s;
 }
 
 .testimonial-img:hover{
     transform:translateY(-8px);
-    box-shadow:0 20px 40px rgba(212,175,55,.18);
+    box-shadow:0 15px 30px rgba(212,175,55,.2);
 }
 @media(max-width:768px){
 
