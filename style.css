@@ -1148,9 +1148,8 @@ grid-template-columns:1fr;
 }
 
 .testimonial-card{
-    width:260px;
+    width:100%;
 }
-
 .testimonial-img{
     width:100%;
     display:block;
