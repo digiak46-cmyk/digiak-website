@@ -1179,13 +1179,18 @@ grid-template-columns:1fr;
     margin-top:20px;
 }
 
+.social-links a{
+    display:inline-flex;
+}
+
 .social-links img{
-    width:45px;
-    height:45px;
-    border-radius:50%;
+    width:40px !important;
+    height:40px !important;
+    object-fit:contain;
+    display:block;
     transition:.3s;
 }
 
 .social-links img:hover{
-    transform:translateY(-5px);
+    transform:translateY(-5px) scale(1.08);
 }
