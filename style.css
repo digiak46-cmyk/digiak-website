@@ -817,8 +817,9 @@ border:1px solid rgba(212,175,55,.15);
 }
 
 .contact-box input,
-.contact-box textarea{
-
+.contact-box textarea,
+.contact-box select{
+   
 width:100%;
 
 padding:16px 18px;
@@ -840,7 +841,8 @@ font-family:Poppins,sans-serif;
 }
 
 .contact-box input:focus,
-.contact-box textarea:focus{
+.contact-box textarea:focus,
+.contact-box select:focus{
 
 outline:none;
 
@@ -1168,4 +1170,22 @@ grid-template-columns:1fr;
     grid-template-columns:1fr;
 }
 
+}
+.social-links{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin-top:20px;
+}
+
+.social-links img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    transition:.3s;
+}
+
+.social-links img:hover{
+    transform:translateY(-5px);
 }
