@@ -1289,3 +1289,12 @@ grid-template-columns:1fr;
     border-radius:12px;
     margin-bottom:20px;
 }
+.intro{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.intro span{
+    color:#D4AF37;
+    font-weight:600;
+}
