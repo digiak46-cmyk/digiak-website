@@ -885,6 +885,20 @@ transform:translateY(-5px);
 box-shadow:0 15px 35px rgba(212,175,55,.30);
 
 }
+.contact-box select{
+    width:100%;
+    padding:16px 18px;
+    margin-bottom:20px;
+    background:#1d1d1d;
+    color:#fff;
+    border:1px solid #2c2c2c;
+    border-radius:12px;
+    font-size:15px;
+    font-family:'Poppins',sans-serif;
+    appearance:none;
+    -webkit-appearance:none;
+    cursor:pointer;
+}
 /* =========================
    FOOTER
 ========================= */
