@@ -1139,11 +1139,11 @@ grid-template-columns:1fr;
     font-weight:600;
 }
 .testimonial-gallery{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:25px;
-    margin-top:60px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    max-width:900px;
+    margin:0 auto;
 }
 
 .testimonial-card{
