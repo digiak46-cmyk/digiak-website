@@ -522,19 +522,24 @@ nav{
 ========================= */
 
 #founder{
-    display:grid;
-    grid-template-columns:350px 1fr;
-    gap:60px;
+    display:flex;
     align-items:center;
-
+    justify-content:center;
+    gap:70px;
     padding:100px 8%;
     background:#0d0d0d;
 }
 
 .founder-photo{
-    width:100%;
+    width:350px;
+    max-width:100%;
     border-radius:20px;
-    border:2px solid rgba(212,175,55,.2);
+    flex-shrink:0;
+}
+
+.founder-content{
+    flex:1;
+    max-width:700px;
 }
 
 .founder-content h3{
@@ -547,15 +552,15 @@ nav{
 
 .founder-content h2{
     font-size:48px;
-    margin-bottom:25px;
     color:#fff;
+    margin-bottom:25px;
 }
 
 .founder-content p{
+    margin-bottom:18px;
     color:#bdbdbd;
     line-height:1.9;
-    margin-bottom:18px;
-    max-width:700px;
+}
 }
 /* =========================
    TESTIMONIALS
