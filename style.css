@@ -681,7 +681,7 @@ font-weight:500;
    WHY DIGIAK
 ========================= */
 
-#why-digiak{
+#why-us{
 
 padding:100px 8%;
 
@@ -689,7 +689,7 @@ background:#090909;
 
 }
 
-#why-digiak h2{
+#why-us h2{
 
 text-align:center;
 
@@ -701,7 +701,7 @@ margin-bottom:20px;
 
 }
 
-#why-digiak>p{
+#why-us >p{
 
 text-align:center;
 
@@ -969,18 +969,6 @@ transform:scale(1.1);
         grid-template-columns: repeat(2, 1fr);
     }
 
-}
-
-.testimonial-grid,
-.why-grid,
-#projects,
-#services{
-
-grid-template-columns:1fr 1fr;
-
-}
-
-}
 
 @media(max-width:768px){
 
@@ -1152,11 +1140,12 @@ grid-template-columns:1fr;
 }
 .testimonial-gallery{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
-    gap:35px;
-    max-width:900px;
-    margin:0 auto;
+    grid-template-columns:repeat(2,280px);
+    justify-content:center;
+    gap:25px;
+    margin:60px auto 0;
 }
+
 
 .testimonial-card{
     display:flex;
@@ -1164,11 +1153,9 @@ grid-template-columns:1fr;
 }
 
 .testimonial-img{
-    width:100%;
-    max-width:360px;
-    border-radius:18px;
-    border:1px solid rgba(212,175,55,.18);
-    transition:.35s;
+    width:280px;
+    border-radius:16px;
+    display:block;
 }
 
 .testimonial-img:hover{
