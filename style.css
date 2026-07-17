@@ -522,79 +522,40 @@ nav{
 ========================= */
 
 #founder{
+    display:grid;
+    grid-template-columns:350px 1fr;
+    gap:60px;
+    align-items:center;
 
-padding:100px 8%;
-
-background:#0d0d0d;
-
-display:grid;
-
-grid-template-columns:380px 1fr;
-
-align-items:center;
-
-gap:70px;
-
+    padding:100px 8%;
+    background:#0d0d0d;
 }
 
 .founder-photo{
-
-width:100%;
-
-max-width:360px;
-
-border-radius:22px;
-
-border:2px solid rgba(212,175,55,.25);
-
-box-shadow:0 20px 45px rgba(0,0,0,.45);
-
-transition:.35s;
-
+    width:100%;
+    border-radius:20px;
+    border:2px solid rgba(212,175,55,.2);
 }
 
-.founder-photo:hover{
-
-transform:translateY(-8px);
-
+.founder-content h3{
+    color:#D4AF37;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:16px;
+    margin-bottom:10px;
 }
 
-#founder h3{
-
-color:#D4AF37;
-
-font-size:18px;
-
-letter-spacing:2px;
-
-margin-bottom:10px;
-
-text-transform:uppercase;
-
+.founder-content h2{
+    font-size:48px;
+    margin-bottom:25px;
+    color:#fff;
 }
 
-#founder h2{
-
-font-size:48px;
-
-margin-bottom:25px;
-
-color:#fff;
-
-}
-
-#founder p{
-
-color:#bdbdbd;
-
-font-size:17px;
-
-line-height:1.9;
-
-margin-bottom:18px;
-
-max-width:720px;
-
+.founder-content p{
+    color:#bdbdbd;
+    line-height:1.9;
+    margin-bottom:18px;
+    max-width:700px;
 }
 /* =========================
    TESTIMONIALS
